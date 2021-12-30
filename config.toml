@@ -1,0 +1,52 @@
+baseURL = "https://example.com"
+languageCode = "en-us"
+theme = "ananke"
+
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
+googleAnalytics = ""
+enableRobotsTXT = true
+
+[languages]
+  [languages.en]
+    title = "Perpetual Learner"
+    weight = 1
+    contentDir = "content/en"
+  [languages.pt]
+    title = "Perpetual Learner"
+    weight = 2
+    contentDir = "content/pt"
+
+
+# [sitemap]
+#   changefreq = "monthly"
+#   priority = 0.5
+#   filename = "sitemap.xml"
+
+[params]
+  author = "Rafael Souza de Almeida Saraiva"
+  favicon = "img/unicorn.svg"
+  site_logo = ""
+  description = "The last theme you'll ever need. Maybe."
+  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  background_color_class = "bg-near-black"
+  featured_image = "img/hex-black-blue-ground.jpg"
+  recent_posts_number = 2
+  commentoEnable = true
+  body_classes = "avenir bg-near-white" # formato de "<fonte> bg-<cor>"
+  
+# [[params.ananke_socials]]
+# name = "twitter"
+# url = ""
+
+[[params.ananke_socials]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/rafael-saraiva-200973136/"
+
+[[params.ananke_socials]]
+name = "github"
+url = "https://github.com/JumpingDino"
+
+disqusShortname = "Rafael"
+  
